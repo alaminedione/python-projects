@@ -10,17 +10,13 @@ A simple calculator made with python and pyqt5.
 
 ## create virtual environment
 
-### windows
-
-```bash
-python -m venv venv
-.\venv\Scripts\activate
-```
-
-### linux / mac
-
 ```bash
 python3 -m venv venv
+```
+
+activate the virtual environment
+
+```bash
 source venv/bin/activate
 ```
 
@@ -63,9 +59,3 @@ MIT
 
 [Alamine Dione](https://github.com/alaminedione)
 hope you like it 😊
-
-## Credits 👍
-
-- [PyQt5](https://www.riverbankcomputing.com/software/pyqt/download5)
-- [PyInstaller](https://www.pyinstaller.org/)
-- [qt-material](https://github.com/Alexhuszagh/qt-material)
