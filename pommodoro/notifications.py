@@ -13,7 +13,12 @@ def show_notification(title, message):
                 f'display notification "{message}" with title "{title}"',
             ]
         )
-    # Windows notifications can be added here if needed
+    elif platform.system() == "Windows":  # Windows
+        subprocess.run(["title", title])
+        subprocess.run(["color", message])
+    else:
+        print("Unsupported platform")
+        return
 
 
 def play_sound(sound_type="start"):
